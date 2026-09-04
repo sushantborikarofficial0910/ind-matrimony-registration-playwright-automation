@@ -1,0 +1,6 @@
+[    1756ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://eventhub.rahulshettyacademy.com/favicon.ico:0
+[    1791ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://eventhub.rahulshettyacademy.com/login:0
+[   18739ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://eventhub.rahulshettyacademy.com/register:0
+[   18740ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://eventhub.rahulshettyacademy.com/register:0
+[   33022ms] [ERROR] WebSocket connection to 'wss://tm.filter:1502/' failed: Connection closed before receiving a handshake response @ https://eventhub.rahulshettyacademy.com/login:0
+[  103746ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://api.eventhub.rahulshettyacademy.com/api/auth/register:0

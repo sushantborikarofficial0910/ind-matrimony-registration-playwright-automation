@@ -1,0 +1,25 @@
+{
+  "name": "indregistrationflow",
+  "version": "1.0.0",
+  "_moduleAliases": {
+    "@pages": "pages",
+    "@utils": "utils",
+    "@tests": "tests"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  },
+  "dependencies": {
+    "module-alias": "^2.3.4"
+  }
+}
