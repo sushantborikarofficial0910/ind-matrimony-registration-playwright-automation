@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
 
-test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
+test('TC_RES_NEG_001 - Select Blank City', async ({ page }) => {
 
     console.log("🚀 TC_RES_NEG_002 Started");
 
@@ -126,25 +126,28 @@ test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
 
     console.log("✅ Native Location Page Opened");
 
-    // Open City dropdown
-    await page.getByText('City').click();
+    // Select Native State
+await page.getByText('State').click();
 
-    // Verify no city options are available
-    const cityOptions = page.locator('.ant-select-item-option-content');
+const nativeState = page.getByText('Maharashtra', { exact: true });
 
-    if (await cityOptions.count() === 0) {
-        console.log("✅ No city available because Native State is not selected.");
-    }
+await nativeState.scrollIntoViewIfNeeded();
+await nativeState.click();
 
-    // Close dropdown by clicking outside
-    await page.getByText('Native place helps families understand your roots and cultural background, which is important for many matchmaking preferences.').click();
+console.log("✅ Native State Selected");
 
-    // Click Continue
+// Do NOT select Native City
+
+// Continue
     await page.locator('.continue-btn').click();
 
-    // Verify validation
-    await expect(page.getByText('Please select state', { exact: true })).toBeVisible();
-    await expect(page.getByText('Please select city', { exact: true })).toBeVisible();
+// Verify only City validation
+await expect(page.getByText('Please select city', { exact: true })).toBeVisible();
+
+console.log("✅ Validation displayed for blank Native City");
+
+// Verify State validation is NOT displayed
+await expect(page.getByText('Please select state', { exact: true })).not.toBeVisible();
 
 
     //Verify Registration Step Number

@@ -2,9 +2,9 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
 
-test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
+test('TC_RES_NEG_001 - CloseValidationPopup', async ({ page }) => {
 
-    console.log("🚀 TC_RES_NEG_002 Started");
+    console.log("🚀 TC_RES_NEG_001 Started");
 
     // Navigate to Application
     await page.goto('https://uat-app.inddevelopment.in/');
@@ -119,38 +119,62 @@ test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
     //wait 2 minutes
     await page.waitForTimeout(2000);    // 2 seconds
 
-
-    // Verify Native Location Page
-    // -------------------------------
-    await expect(page.getByText('Native place helps families understand your roots and cultural background, which is important for many matchmaking preferences.')).toBeVisible();
-
-    console.log("✅ Native Location Page Opened");
+    // Verify Native Address Page
+    await expect(page.getByText('State *')).toBeVisible();
 
     // Select Native State
-await page.getByText('State').click();
+    await page.locator('div').filter({ hasText: /^State \*$/ }).nth(2).click();
 
-const nativeState = page.getByText('Maharashtra', { exact: true });
+    await page.getByText('Arunachal Pradesh').click();
 
-await nativeState.scrollIntoViewIfNeeded();
-await nativeState.click();
+    // Select Native City
+    await page.locator('div').filter({ hasText: /^City \*$/ }).nth(2).click();
 
-console.log("✅ Native State Selected");
+    await page.getByText('Central Siang').click();
 
-// Do NOT select Native City
-
-// Continue
+    // Continue
     await page.locator('.continue-btn').click();
 
-// Verify only City validation
-await expect(page.getByText('Please select city', { exact: true })).toBeVisible();
+    console.log('✅ Native State and City Selected successfully');
 
-console.log("✅ Validation displayed for blank Native City");
+    // Verify Community Page
+    await expect(page.getByText('Select Domain')).toBeVisible();
 
-// Verify State validation is NOT displayed
-await expect(page.getByText('Please select state', { exact: true })).not.toBeVisible();
+    // Select Domain
+    await page.getByText('Select Domain *').click();
+    await page.getByText('Bengali').click();
+
+    // Select Religion
+    await page.getByText('Select Religion *').click();
+    await page.getByText('Hindu').click();
+
+    // Select Caste
+    await page.getByText('Select Caste *').click();
+    await page.getByText('Agri').click();
+
+    // Continue
+    await page.locator('.continue-btn').click();
+
+    console.log('✅ Community Details Selected successfully');
+
+    // Verify Physical Status page
+    await expect(
+        page.getByText('Physical Status', { exact: true })
+    ).toBeVisible();
+
+    console.log("✅ Physical Status Page Opened");
+
+    // Browser Back
+    await page.goBack();
+
+    console.log("⬅️ Browser Back clicked");
+
+    // Verify Popup
+    await expect(
+        page.getByText('Are you sure?', { exact: true })
+    ).toBeVisible();
+
+    console.log("Error Popup Displayed");
 
 
-    //Verify Registration Step Number
-    await expect(page.getByText('Step 1 of 2')).toBeVisible();
-    console.log("✅ Registration Step Number Visible");
 });

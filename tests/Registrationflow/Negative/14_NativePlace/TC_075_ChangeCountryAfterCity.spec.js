@@ -2,9 +2,9 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
 
-test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
+test('TC_RES_NEG_001 - Select Blank City', async ({ page }) => {
 
-    console.log("🚀 TC_RES_NEG_002 Started");
+    console.log("🚀 TC_RES_NEG_001 Started");
 
     // Navigate to Application
     await page.goto('https://uat-app.inddevelopment.in/');
@@ -119,21 +119,47 @@ test('TC_RES_NEG_002 - Select Blank City', async ({ page }) => {
     //wait 2 minutes
     await page.waitForTimeout(2000);    // 2 seconds
 
+    // Select State
+    await page.getByText('State *').click();
 
-    // Verify Native Location Page
-    // -------------------------------
-    await expect(page.getByText('Native place helps families understand your roots and cultural background, which is important for many matchmaking preferences.')).toBeVisible();
+    await page.getByText('Maharashtra', {
+        exact: true
+    }).click();
 
-    console.log("✅ Native Location Page Opened");
+    // Select City
+    await page.getByText('City *').click();
 
-// Continue
-    await page.locator('.continue-btn').click();
+    await page.getByText('Nagpur', {
+        exact: true
+    }).click();
 
-// Verify validations
-await expect(page.getByText('Please select state', { exact: true })).toBeVisible();
-await expect(page.getByText('Please select city', { exact: true })).toBeVisible();
+    console.log("✅ State and City Selected");
 
-    //Verify Registration Step Number
-    await expect(page.getByText('Step 1 of 2')).toBeVisible();
-    console.log("✅ Registration Step Number Visible");
+    // Change Country
+    await page.getByText('India', {
+        exact: true
+    }).first().click();
+
+    await page.getByText('United States', {
+        exact: true
+    }).click();
+
+    console.log("✅ Country Changed");
+
+    // State should reset
+    await expect(
+        page.getByText('State *', {
+            exact: true
+        })
+    ).toBeVisible();
+
+    // City should also reset
+    await expect(
+        page.getByText('City *', {
+            exact: true
+        })
+    ).toBeVisible();
+
+    console.log("✅ State and City reset after Country change");
+
 });
