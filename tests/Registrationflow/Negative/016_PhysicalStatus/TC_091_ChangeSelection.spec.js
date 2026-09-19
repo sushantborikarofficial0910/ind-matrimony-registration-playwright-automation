@@ -2,7 +2,7 @@
     const { generateMobileNumber } = require('@utils/randomData');
     const { time, log } = require('node:console');
 
-    test('TC_RES_NEG_001 - CloseValidationPopup', async ({ page }) => {
+    test('TC_RES_NEG_001 - Change Selection', async ({ page }) => {
 
         console.log("🚀 TC_RES_NEG_001 Started");
 
@@ -170,15 +170,12 @@
         console.log("✅ Normal selected");
 
         // Change selection
-        await page.getByText(
-            'Physically Handicapped',
-            { exact: true }
-        ).click();
+        await page.getByText('Physically Handicapped',{ exact: true }).click();
 
         console.log("✅ Physical Status changed");
 
         // Verify new option is selected
-                await expect(page.getByText('Physically Handicapped',{ exact: true })).toBeVisible();
+        await expect(page.getByText('Physically Handicapped',{ exact: true })).toBeVisible();
 
         console.log("✅ New Physical Status selected");
         
