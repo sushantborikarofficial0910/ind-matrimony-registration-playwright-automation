@@ -1,0 +1,3 @@
+🚀 TC_019 Started
+✅ Basic Details Page Opened
+✅ PASS - First Name Validation Verified

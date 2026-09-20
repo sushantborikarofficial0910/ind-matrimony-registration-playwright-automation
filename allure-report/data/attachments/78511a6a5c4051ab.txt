@@ -1,0 +1,5 @@
+🚀 TC_RES_NEG_002 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ Validation displayed for blank State
+✅ Registration Step Number Visible

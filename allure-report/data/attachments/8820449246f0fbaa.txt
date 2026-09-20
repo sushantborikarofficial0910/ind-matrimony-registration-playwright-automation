@@ -1,0 +1,3 @@
+🚀 TC_025 Started
+✅ Basic Details Page Opened
+✅ PASS - First Name Spaces Validation Verified

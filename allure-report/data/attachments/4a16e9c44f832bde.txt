@@ -1,0 +1,6 @@
+🚀 TC_044 Started
+Generated Mobile: 9100068119
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Registration Step Number Visible

@@ -1,0 +1,15 @@
+🚀 TC_015 Started
+✅ Profile Created By Page Opened
+Selecting : Self
+✅ Self Selected Successfully
+Selecting : Friends
+✅ Friends Selected Successfully
+Selecting : Sibling
+✅ Sibling Selected Successfully
+Selecting : Father
+✅ Father Selected Successfully
+Selecting : Mother
+✅ Mother Selected Successfully
+Selecting : Others
+✅ Others Selected Successfully
+🎉 All Profile Options Verified Successfully

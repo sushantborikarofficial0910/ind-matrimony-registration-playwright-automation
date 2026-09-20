@@ -1,0 +1,3 @@
+🚀 TC_031 Started
+✅ Basic Details Page Opened
+✅ PASS - Email Without @ Validation Verified

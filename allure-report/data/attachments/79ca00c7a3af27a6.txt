@@ -1,0 +1,8 @@
+🚀 TC_041  Started
+Generated Mobile: 9390830090
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Instruction Text Visible
+✅ Registration Step Number Visible
+✅ PASS - Time Page Displayed

@@ -1,0 +1,3 @@
+🚀 TC_023 Started
+✅ Basic Details Page Opened
+✅ PASS - Special Characters are not accepted in First Name

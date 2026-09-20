@@ -1,0 +1,8 @@
+🚀 TC_061  Started
+Generated Mobile: 9318147438
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Profession Page Opened
+✅ Validation Message Displayed for Blank Income Field
+✅ Registration Step Number Visible

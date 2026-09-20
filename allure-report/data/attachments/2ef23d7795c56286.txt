@@ -1,0 +1,8 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ Country Changed
+✅ State field reset after changing Country
+✅ Validation displayed
+✅ Registration Step Number Visible

@@ -1,0 +1,8 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ City Selected
+✅ Maharashtra + Nagpur Selected
+✅ State changed to Gujarat
+✅ City reset after State change

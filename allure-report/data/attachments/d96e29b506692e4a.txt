@@ -1,0 +1,8 @@
+🚀 TC_059  Started
+Generated Mobile: 9973401140
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation Message Displayed for Description Field
+✅ Are you sure? Text Visible
+✅ Registration Step Number Visible

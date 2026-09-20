@@ -1,0 +1,7 @@
+🚀 TC_043 Started
+Generated Mobile: 9703809048
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation message displayed successfully
+✅ Registration Step Number Visible

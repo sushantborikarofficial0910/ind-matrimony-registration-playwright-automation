@@ -1,0 +1,8 @@
+🚀 TC_056  Started
+Generated Mobile: 9733254400
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Education Page Opened
+✅ Validation Message Displayed for Blank Education Field
+✅ Registration Step Number Visible

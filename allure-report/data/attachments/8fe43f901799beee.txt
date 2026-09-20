@@ -1,0 +1,6 @@
+🚀 TC_052 Started
+Generated Mobile: 9668197485
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Height & Weight UI verified

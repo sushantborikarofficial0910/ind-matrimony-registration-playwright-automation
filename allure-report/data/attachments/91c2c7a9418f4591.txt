@@ -1,0 +1,7 @@
+🚀 TC_058  Started
+Generated Mobile: 9557795371
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation Message Displayed for Description Field
+✅ Registration Step Number Visible

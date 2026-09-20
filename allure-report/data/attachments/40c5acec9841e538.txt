@@ -1,0 +1,9 @@
+🚀 TC_060  Started
+Generated Mobile: 9461779929
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Profession Page Opened
+✅ Validation Message Displayed for Blank Profession Field
+✅ Validation Message Displayed for Blank Income Field
+✅ Registration Step Number Visible

@@ -1,0 +1,9 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ Maharashtra Selected
+✅ Mumbai Selected
+✅ State Changed to Gujarat
+✅ City field reset successfully
+✅ Validation displayed
+✅ Registration Step Number Visible

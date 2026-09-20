@@ -1,0 +1,3 @@
+🚀 TC_024 Started
+✅ Basic Details Page Opened
+✅ PASS - Special Characters are not accepted in Last Name

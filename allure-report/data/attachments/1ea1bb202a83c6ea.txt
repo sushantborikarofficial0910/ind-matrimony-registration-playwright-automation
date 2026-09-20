@@ -1,0 +1,7 @@
+🚀 TC_053  Started
+Generated Mobile: 9960369882
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation Message Displayed for Blank Height Field
+✅ Registration Step Number Visible

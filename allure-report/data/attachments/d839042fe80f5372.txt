@@ -1,0 +1,8 @@
+🚀 TC_063  Started
+Generated Mobile: 9391800007
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Profession Page Opened
+✅ Validation Message Displayed for Blank Profession Field
+✅ Registration Step Number Visible

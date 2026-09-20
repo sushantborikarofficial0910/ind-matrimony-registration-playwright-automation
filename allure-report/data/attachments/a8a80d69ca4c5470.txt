@@ -1,0 +1,7 @@
+🚀 TC_018  Started
+✅ Gender Page Opened
+Selecting : I AM A MAN
+✅ I AM A MAN Selected Successfully
+Selecting : I AM A WOMAN
+✅ I AM A WOMAN Selected Successfully
+🎉 All Gender Options Verified Successfully

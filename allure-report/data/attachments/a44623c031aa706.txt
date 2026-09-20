@@ -1,0 +1,2 @@
+🚀 TC_012 Started
+✅ PASS - OTP field not accepting more than 6 digits
