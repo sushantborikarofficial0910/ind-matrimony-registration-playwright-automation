@@ -1,0 +1,9 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ City Selected
+✅ Native State and City Selected successfully
+✅ Community details selected
+🔄 Page refreshed
+✅ Community page loaded after refresh

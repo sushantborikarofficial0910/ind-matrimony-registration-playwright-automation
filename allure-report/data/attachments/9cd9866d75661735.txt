@@ -1,0 +1,2 @@
+🚀 TC_006 Started
+✅ PASS - Get OTP button is disabled

@@ -1,0 +1,5 @@
+🚀 TC_038 Started
+Generated Mobile: 9915433935
+✅ Basic Details Page Opened
+✅ Entered Same Mobile Number in Alternate Mobile: 9915433935
+✅ PASS - Same as Primary Mobile Number Rejected

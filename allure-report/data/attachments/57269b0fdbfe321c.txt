@@ -1,0 +1,10 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ City Selected
+✅ Native State and City Selected successfully
+✅ Domain Selected
+✅ Religion validation displayed
+✅ Domain validation not displayed
+✅ Caste validation displayed

@@ -1,0 +1,4 @@
+🚀 TC_033 Started
+Generated Mobile: 9185523535
+✅ Basic Details Page Opened
+✅ PASS - Invalid Alternate Mobile Validation Verified

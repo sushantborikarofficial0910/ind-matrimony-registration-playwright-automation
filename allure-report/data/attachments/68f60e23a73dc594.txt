@@ -1,0 +1,3 @@
+🚀 TC_029 Started
+✅ Basic Details Page Opened
+✅ PASS - Emoji is not accepted in First and LastName

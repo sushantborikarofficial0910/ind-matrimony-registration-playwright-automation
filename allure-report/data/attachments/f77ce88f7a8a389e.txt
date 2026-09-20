@@ -1,0 +1,9 @@
+🚀 TC_RES_NEG_002 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ City Selected
+✅ Native Location Page Opened
+✅ Native State Selected
+✅ Validation displayed for blank Native City
+✅ Registration Step Number Visible

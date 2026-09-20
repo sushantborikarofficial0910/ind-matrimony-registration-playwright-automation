@@ -1,0 +1,7 @@
+🚀 TC_046 Started
+Generated Mobile: 9152045844
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation Message Visible
+✅ Registration Step Number Visible

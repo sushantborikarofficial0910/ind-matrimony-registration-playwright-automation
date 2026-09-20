@@ -194,7 +194,7 @@ test('TC_RES_NEG_001 - CloseValidationPopup', async ({ page }) => {
         )
     ).not.toBeVisible();
 
-    // Verify still on Physical Status page
+    // Verify screen still on Physical Status page
     await expect(
         page.getByText('Physical Status', { exact: true })
     ).toBeVisible();

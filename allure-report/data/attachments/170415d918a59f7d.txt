@@ -1,0 +1,3 @@
+🚀 TC_030 Started
+✅ Basic Details Page Opened
+✅ PASS - Invalid Email Validation Verified

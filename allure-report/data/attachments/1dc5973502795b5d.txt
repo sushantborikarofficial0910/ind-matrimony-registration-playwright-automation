@@ -1,0 +1,7 @@
+🚀 TC_047 Started
+Generated Mobile: 9311511023
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Validation Message Visible
+✅ Registration Step Number Visible

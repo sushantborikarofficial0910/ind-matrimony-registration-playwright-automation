@@ -1,0 +1,6 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ No city available to select because State is not selected.
+✅ Validation displayed for blank State
+✅ Registration Step Number Visible

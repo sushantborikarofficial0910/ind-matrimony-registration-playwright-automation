@@ -1,0 +1,6 @@
+🚀 TC_050 Started
+Generated Mobile: 9295897774
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Registration Step Number Visible

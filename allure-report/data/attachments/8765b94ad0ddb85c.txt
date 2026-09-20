@@ -1,0 +1,4 @@
+🚀 TC_032 Started
+Generated Mobile: 9628332132
+✅ Basic Details Page Opened
+✅ PASS - Email Without Domain Validation Verified

@@ -1,0 +1,7 @@
+🚀 TC_049 Started
+Generated Mobile: 9102825875
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Maritial Options Visible
+✅ Registration Step Number Visible

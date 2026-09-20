@@ -1,0 +1,5 @@
+🚀 TC_040 Started
+Generated Mobile: 9715876375
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ PASS - Default Age Displayed

@@ -1,0 +1,7 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State dropdown closed without selection
+✅ City dropdown closed without selection
+✅ Validation displayed
+✅ Registration Step Number Visible

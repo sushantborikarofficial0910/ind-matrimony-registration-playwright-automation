@@ -1,4 +1,5 @@
 require('./alias');
+
 const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
@@ -12,28 +13,17 @@ module.exports = defineConfig({
   },
 
   reporter: [
+    ['list'],
     ['html'],
-    ['list']
+    ['allure-playwright']
   ],
 
   use: {
-
     browserName: 'chromium',
-
     headless: false,
 
-    viewport: {
-      width: 1536,
-      height: 864
-    },
-
     screenshot: 'only-on-failure',
-
     video: 'retain-on-failure',
-
-    trace: 'retain-on-failure',
-
-    ignoreHTTPSErrors: true
+    trace: 'retain-on-failure'
   }
-
 });

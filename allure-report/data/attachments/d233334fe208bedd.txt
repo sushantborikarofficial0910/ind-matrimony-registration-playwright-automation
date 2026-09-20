@@ -1,0 +1,8 @@
+🚀 TC_RES_NEG_001 Started
+✅ Profession Page Opened
+✅ Current Residence Page Opened
+✅ State Selected
+✅ City Selected
+✅ State and City Selected
+🔄 Page Refreshed
+✅ Native Location page loaded after refresh

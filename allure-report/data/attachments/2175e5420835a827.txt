@@ -1,0 +1,3 @@
+🚀 TC_021 Started
+✅ Basic Details Page Opened
+✅ PASS - First Name Number Validation Verified

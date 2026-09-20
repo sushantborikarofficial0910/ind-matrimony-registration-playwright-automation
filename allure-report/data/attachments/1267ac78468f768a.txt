@@ -1,0 +1,3 @@
+🚀 TC_020 Started
+✅ Basic Details Page Opened
+✅ PASS - Last Name Validation Verified

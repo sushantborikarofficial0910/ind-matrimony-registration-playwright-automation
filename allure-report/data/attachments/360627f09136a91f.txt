@@ -1,0 +1,7 @@
+🚀 TC_064  Started
+Generated Mobile: 9957886475
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Profession Page Opened
+✅ Registration Step Number Visible

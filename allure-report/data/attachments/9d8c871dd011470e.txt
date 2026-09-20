@@ -1,0 +1,7 @@
+🚀 TC_039 Started
+Generated Mobile: 9874848118
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ Date Tab Visible
+✅ Age Tab Visible
+✅ PASS - DOB Page Verified

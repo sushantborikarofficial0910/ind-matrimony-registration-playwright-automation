@@ -1,0 +1,7 @@
+🚀 TC_045 Started
+Generated Mobile: 9431011723
+✅ Basic Details Page Opened
+✅ DOB Page Opened
+✅ TOB Page Opened
+✅ Only one option selected
+✅ Registration Step Number Visible
