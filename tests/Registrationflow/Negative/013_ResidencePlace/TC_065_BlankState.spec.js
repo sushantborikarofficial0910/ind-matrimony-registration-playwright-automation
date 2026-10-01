@@ -2,9 +2,9 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time } = require('node:console');
 
-test('TC_RES_NEG_001 - Verify user cannot continue without selecting State', async ({ page }) => {
+test('TC_065 - Verify user cannot continue without selecting State', async ({ page }) => {
 
-    console.log("🚀 TC_RES_NEG_001 Started");
+    console.log("🚀 TC_065 Started");
 
     // Navigate to Application
     await page.goto('https://uat-app.inddevelopment.in/');

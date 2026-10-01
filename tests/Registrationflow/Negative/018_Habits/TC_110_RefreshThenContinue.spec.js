@@ -2,9 +2,9 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
 
-test('TC_RES_NEG_001 - Refresh select and continue', async ({ page }) => {
+test('TC_110 - Refresh then Continue', async ({ page }) => {
 
-    console.log("🚀 TC_RES_NEG_001 Started");
+    console.log("🚀 TC_110 Started");
 
     // Navigate to Application
     await page.goto('https://uat-app.inddevelopment.in/');

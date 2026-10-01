@@ -2,9 +2,9 @@ const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
 
-test('TC_RES_NEG_001 - Close State & City Dropdown', async ({ page }) => {
+test('TC_071 - Close State & City Dropdown', async ({ page }) => {
 
-    console.log("🚀 TC_RES_NEG_001 Started");
+    console.log("🚀 TC_071 Started");
 
     // Navigate to Application
     await page.goto('https://uat-app.inddevelopment.in/');
