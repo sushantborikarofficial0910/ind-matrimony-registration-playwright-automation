@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time } = require('node:console');
@@ -7,7 +9,7 @@ test('TC_065 - Verify user cannot continue without selecting State', async ({ pa
     console.log("🚀 TC_065 Started");
 
     // Navigate to Application
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
 
     // Registration Flow
     await page.getByRole('link', { name: 'Register' }).click();

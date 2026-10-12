@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 
@@ -6,7 +8,7 @@ test('TC_039 - Verify DOB Page Loads', async ({ page }) => {
     console.log("🚀 TC_039 Started");
 
     // Navigate to Basic Details Page
-        await page.goto('https://uat-app.inddevelopment.in/');
+        await page.goto(baseUrl);
         await page.getByRole('link', { name: 'Register' }).click();
         const mobile = generateMobileNumber();
         console.log("Generated Mobile:", mobile);

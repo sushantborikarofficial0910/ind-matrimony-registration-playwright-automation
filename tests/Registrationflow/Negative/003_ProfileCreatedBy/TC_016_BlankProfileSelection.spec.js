@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 test('TC_016 - Blank Profile Selection', async ({ page }) => {
@@ -5,7 +7,7 @@ test('TC_016 - Blank Profile Selection', async ({ page }) => {
     console.log("🚀 TC_016 Started");
 
     // Navigate to Profile Created By Page
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
 
     await page.getByRole('link', { name: 'Register' }).click();
 

@@ -1,9 +1,11 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 
 test('Positive Registration Flow', async ({ page }) => {
 
     // Step 1 - Login
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
 
     await page.getByRole('link', { name: 'Register' }).click();
 

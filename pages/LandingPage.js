@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 class LandingPage {
 
     constructor(page) {
@@ -43,7 +45,7 @@ class LandingPage {
 
     async openWebsite() {
 
-        await this.page.goto('https://uat-app.inddevelopment.in/');
+        await this.page.goto(baseUrl);
 
         await this.page.waitForLoadState('networkidle');
 

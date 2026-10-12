@@ -1,10 +1,12 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 
 test('TC_005 - Verify Get OTP button is enabled when Mobile Number is valid', async ({ page }) => {
 
     console.log("🚀 TC_005 Started");
 
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
 
     await page.getByRole('link', { name: 'Register' }).click();
 

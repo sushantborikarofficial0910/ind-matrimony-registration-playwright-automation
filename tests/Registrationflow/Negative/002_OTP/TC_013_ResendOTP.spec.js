@@ -1,10 +1,12 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 test('TC_013 - Resend OTP', async ({ page }) => {
 
     console.log("🚀 TC_013 Started");
 
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
     await page.getByRole('link', { name: 'Register' }).click();
     const mobile = generateMobileNumber();
     await page.getByRole('textbox', { name: 'Mobile Number' }).fill(mobile);

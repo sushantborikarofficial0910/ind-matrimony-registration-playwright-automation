@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 test('TC_052 - Verify Height & Weight Page UI', async ({ page }) => {
@@ -5,7 +7,7 @@ test('TC_052 - Verify Height & Weight Page UI', async ({ page }) => {
     console.log("🚀 TC_052 Started");
 
     // Navigate to Basic Details Page
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
     await page.getByRole('link', { name: 'Register' }).click();
     const mobile = generateMobileNumber();
     console.log("Generated Mobile:", mobile);

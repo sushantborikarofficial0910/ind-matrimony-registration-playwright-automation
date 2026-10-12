@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 
@@ -6,7 +8,7 @@ test('TC_035 - Alternate Mobile More Than 10 Digits', async ({ page }) => {
     console.log("🚀 TC_035 Started");
 
     // Navigate to Basic Details Page
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
     await page.getByRole('link', { name: 'Register' }).click();
     const mobile = generateMobileNumber();
     console.log("Generated Mobile:", mobile);

@@ -2,7 +2,7 @@
 
 ## Application Overview
 
-Test plan for the IND Matrimony registration entry page at https://uat-app.inddevelopment.in/otpLogin?mode=register. The page displays the REGISTER form with a Mobile Number textbox and a disabled Get OTP button until input is accepted. Tests should start from a fresh browser context and must not use a real user's phone number unless explicitly approved.
+Test plan for the IND Matrimony registration entry page at the configured base URL plus `/otpLogin?mode=register`. The page displays the REGISTER form with a Mobile Number textbox and a disabled Get OTP button until input is accepted. Tests should start from a fresh browser context and must not use a real user's phone number unless explicitly approved.
 
 ## Test Scenarios
 
@@ -15,7 +15,7 @@ Test plan for the IND Matrimony registration entry page at https://uat-app.indde
 **File:** `tests/Registrationflow/RegistrationPage/TC_001_RegisterPageLoad.spec.js`
 
 **Steps:**
-  1. Navigate to https://uat-app.inddevelopment.in/otpLogin?mode=register
+  1. Navigate to the configured base URL plus `/otpLogin?mode=register`
     - expect: The page loads without a navigation error
     - expect: The page URL contains /otpLogin?mode=register
     - expect: The page shows the heading REGISTER

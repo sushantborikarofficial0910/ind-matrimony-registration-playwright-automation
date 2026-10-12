@@ -1,3 +1,5 @@
+const { baseUrl } = require('@utils/registrationData');
+
 const { test, expect } = require('@playwright/test');
 const { generateMobileNumber } = require('@utils/randomData');
 const { time, log } = require('node:console');
@@ -7,7 +9,7 @@ test('TC_090 - Refresh Page', async ({ page }) => {
     console.log("🚀 TC_090 Started");
 
     // Navigate to Application
-    await page.goto('https://uat-app.inddevelopment.in/');
+    await page.goto(baseUrl);
 
     // Registration Flow
     await page.getByRole('link', { name: 'Register' }).click();
@@ -173,7 +175,7 @@ test('TC_090 - Refresh Page', async ({ page }) => {
         console.log("🚀 TC_RES_NEG_001 Started");
 
         // Navigate to Application
-        await page.goto('https://uat-app.inddevelopment.in/');
+        await page.goto(baseUrl);
 
         // Registration Flow
         await page.getByRole('link', { name: 'Register' }).click();

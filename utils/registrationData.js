@@ -1,5 +1,7 @@
 module.exports = {
 
+baseUrl:"https://uat-app.inddevelopment.in/",
+
 mobile:"5032345434",
 
 otp:"1234568",
