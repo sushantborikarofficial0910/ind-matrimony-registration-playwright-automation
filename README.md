@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #User Registration Automation – Playwright
 📌 Project Overview
 
@@ -95,3 +96,7 @@ HTML Report	Test Reporting
 The automation framework helps reduce repetitive manual testing effort and provides fast feedback on the registration workflow.
 
 It is designed to be reusable, maintainable, scalable, and CI/CD ready, making it suitable for continuous regression testing of web applications.
+=======
+# ind-matrimony-registration-playwright-automation
+End-to-end automation of the IND Matrimony registration flow using Playwright with JavaScript and Node.js. Includes positive and negative test cases, field validations, edge cases, dropdown dependencies, navigation testing, and Allure/HTML reporting to improve registration quality and identify defects early.
+>>>>>>> 5dc85ae9d80650507cf43ab9edf76babab7a8a93
