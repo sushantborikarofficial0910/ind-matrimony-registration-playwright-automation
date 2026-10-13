@@ -1,6 +1,6 @@
 module.exports = {
 
-baseUrl:"https://uat-app.inddevelopment.in/",
+baseUrl:"https://uat-app.indtestdevlopment.in/",
 
 mobile:"5032345434",
 
